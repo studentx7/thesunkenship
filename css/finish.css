@@ -1,0 +1,104 @@
+
+body{
+    background-color: white;
+    font-family: monospace;
+   
+}
+.background-image {
+    background-image: url('../img/treasurechest.jpg');
+    background-repeat: no-repeat; /* doesn't repeat the background (one image) */
+    background-size: cover; /* stretches background across whole page  */  
+  }
+
+h2{
+    font-size: 55px;
+    color: #BBA14F;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 40px;
+    /*margin-bottom: 30px;*/
+}
+
+.fullCard {
+    background-image: url('../img/theEnd.svg');
+    background-color: rgb(247, 247, 247);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 150px;
+    padding: 4px; 
+    color: lightgrey;
+    font-size: 16px;
+    word-wrap: break-word;
+    box-shadow: 0 10px 10px 0 rgb(63, 63, 63), 0 15px 15px 0 grey;
+  }
+  .cardContent {
+    padding: 10px;
+    max-width: 45%;
+    margin: 60px 100px;
+  }
+.sub {
+    font-size: 20px;
+    padding: 0px;
+    color: cad5d9;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* MUST MAKE PAGES RRESPONSIVE!!!! */
+
+.smaller-image {
+    width: 500px;
+}
+
+.larger-image{
+    width: 500px;
+}
+
+.btn { 
+    width: 20%;
+
+    background-color: #BBA14F;
+    display:inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-family: monospace;
+    color: black; 
+
+    border-color: #BBA14F;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 25px 15px 15px;
+    text-align: center;
+    margin:0px 20px 20px 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius:16px;
+
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.credits {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #BBA14F;
+}
+
+
+.btn:hover{
+    background-color: #c9ce8a;
+}
+
+
+#summary1{
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+}
+
+#startButton{
+    margin: 20px 20px 20px 30px; 
+
+  }

@@ -1,0 +1,110 @@
+
+body {    
+    font-family: monospace;
+    margin:auto;
+}
+
+.background-image {
+    background-image: url('../img/yannis-papanastasopoulos-U6dnImauDAE-unsplash.jpg');
+    background-repeat: no-repeat; /* doesn't repeat the background (one image) */
+    background-size: cover; /* stretches background across whole page  */
+  }
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 78, 78);
+    text-align: center;
+}
+
+.fullCard {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 16px;
+    padding-bottom: 2%; 
+    padding-top: 0cm;
+
+    font-size: 17.5px;
+    width : 80%;
+    box-shadow: 0 7.5px 7.5px 0 rgb(63, 63, 63), 0 15px 15px 0 rgba(173, 173, 173, 0.633);
+    vertical-align: middle;
+    margin-left: 8.5%;
+    margin-right: 3%;
+    margin-top: 2.5%;
+    margin-bottom: 7.5%;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+  .btn { 
+    background-color: rgba(217, 255, 253, 0.613);
+    color:black;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+    display:inline-block;
+    text-decoration:none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    margin:0px 20px 20px 30px;
+    border-radius:16px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+pre {
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;       
+}
+
+.center {
+    margin: auto;
+    width: 5%;
+    }
+
+
+    .wrapper {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .animated-check {
+        height: 5em;
+        width: 5em
+       
+    }
+    
+    .animated-check path {
+        fill: none;
+        stroke: #7ac142;
+        stroke-width: 4;
+        stroke-dasharray: 23;
+        stroke-dashoffset: 23;
+        animation: draw 1s linear forwards;
+        stroke-linecap: round;
+        stroke-linejoin: round
+    }
+    
+    @keyframes draw {
+        to {
+            stroke-dashoffset: 0
+        }
+    }

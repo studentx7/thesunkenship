@@ -1,0 +1,52 @@
+for loop question:
+
+                    
+                    public class secretPirateCode{
+
+                        public static void main (String[] args) {
+                            
+                            String message;
+                            String encryptedMessage;
+                            
+                            message = "There are sharks down here!";
+                            encryptedMessage = "";
+                    
+                            for (int i = message.length()-1; i  >= 0;  i--) {
+                                    encryptedMessage += message.charAt(i);
+                            }
+                
+                            System.out.println(encryptedMessage);
+                    
+                        }
+                    }
+
+Answer: 
+
+	B: !ereh nwod skrahs era erehT 
+
+
+
+
+While loop question:
+
+
+public class underwaterRayGun{
+                    
+                    public static void main (String[] args) {
+
+                        int ammo = 10;
+                        int sharkSoup = 0;
+
+                        while (ammo > 0){
+                            sharkSoup ++;
+                            ammo --;
+                            }
+                        System.out.println("Shark soup servings for crew: " + sharkSoup);
+                    }
+                }          
+
+
+Answer:
+
+	C: Shark soup servings for crew: 10
+

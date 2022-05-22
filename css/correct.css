@@ -1,0 +1,129 @@
+body{    
+    background-color: white;
+    font-family: monospace;
+}
+
+.background-image {
+    background-image: url('../img/jakob-owens-dO8qMqWimo8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.tiledBackground {
+    background-size: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+  }
+
+.fullCard {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 16px;
+    padding-bottom: 2%; 
+    padding-top: 0cm;
+
+    font-size: 18px;
+    width : 80%;
+    box-shadow: 0 10px 10px 0 grey, 0 15px 15px 0 grey;
+    vertical-align: middle;
+    margin-left: 8.5%;
+    margin-right: 3%;
+    margin-top: 12.5%;
+    margin-bottom: 7.5%;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.btn { 
+    background-color: #cad5d9;
+    text-decoration:none;
+    display:inline-block;
+    color:black;
+    padding: 20px;
+    font-size: 18px;
+    font-family: monospace;
+    color: black; 
+    padding: 12.5px 25px 12.5px 25px;
+    border-color: rgb(94, 93, 93);
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    margin:0px 20px 20px 30px;
+     
+    border-radius:16px;
+    border-color: rgb(94, 93, 93);
+    border-style: solid;
+    border-width: 2px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+
+
+.cardContent {
+    padding: 10px;
+}
+
+body{
+    background-color: white;
+    font-family: monospace;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(5, 3, 100);
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 5%;
+    }
+
+
+    .wrapper {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .animated-check {
+        height: 5em;
+        width: 5em
+       
+    }
+    
+    .animated-check path {
+        fill: none;
+        stroke: #7ac142;
+        stroke-width: 4;
+        stroke-dasharray: 23;
+        stroke-dashoffset: 23;
+        animation: draw 1s linear forwards;
+        stroke-linecap: round;
+        stroke-linejoin: round
+    }
+    
+    @keyframes draw {
+        to {
+            stroke-dashoffset: 0
+        }
+    }
