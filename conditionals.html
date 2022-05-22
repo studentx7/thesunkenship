@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/conditionals.css">
+    <title>Conditionals</title>
+</head>
+
+<body class = 'background-image'>
+    <div class = "fullCard">
+        <div class="cardContent">
+            <div class="cardText"> 
+
+                <h1>Conditionals Challenge!</h1>
+                <hr>
+
+                <div>
+                    <p style="text-align: center;">
+                        Conditional statements allow us to check if some statements are true or false and perform an action based on that condition.<br>In Java, we have the <strong>'if'</strong>, <strong>'else if'</strong> and <strong>'else'</strong> statements. 
+                        <p style="text-align: center">We use ‘if’ to let the program know that we want a specific code to be performed, if the specified condition is true. If the condition is false, we then use the ‘else’ statement to specify another piece of code to be actioned. Finally, we use the ‘else if’ statement to specify a new condition to be tested, if the first condition is false. </p>
+
+                        <p style="text-align: center;"> Take on the conditional challenge below! </p>
+                        <!--  <p style = "text-align: center;"> Sunken ships are safe and comfortable to explore under certain temperatures! The pirates can only proceed <strong> if </strong> the water temperature is <strong> warm and pleasant</strong>!</p> -->
+
+
+                    <hr>
+
+                    <pre>
+        Sunken ships are safe and comfortable to explore under certain temperatures! The pirates can only proceed <strong>if</strong> the water temperature is <strong>warm and pleasant</strong>!
+
+
+       Line 1          import java.util.Scanner;
+            2                
+            3          class conditionals {
+            4              public static void main(String[] args) {
+            5                  java.util.Scanner scnr = new Scanner(System.in);
+            6
+            7                  System.out.print("Enter the current water temperature: ");
+            8                  int watertemp = scnr.nextInt(); 
+            9          
+            10                 if ((watertemp > 25) && (watertemp < 32)) {
+            11                 System.out.println("Blimey! The water is warm and pleasant, we should be safe to proceed!");
+            12                 }
+            13
+            14                 else if (watertemp <= 25) {
+            15                 System.out.println("Aaaarrrrgggghhhh! The water is unusually cold today, we should head back to shore and explore this shipwreck another day!");
+            16                 }
+            17    
+            18                 else {
+            19                 System.out.println("Aaaarrrrgggghhhh! The water is warmer than usual, we should head back to shore and explore this shipwreck another day!");
+            20                 }
+            21              }
+            22           }
+                    </pre>
+                    </p>
+                </div>
+
+                <hr>
+
+
+
+
+       <p style="text-align: center;">
+        which of the following temperatures will allow the pirates to explore the sunken ship safely?
+       </p>
+
+        <div style ="text-align: center;">
+            <a class="btn" href="correctORincorrect_2\correct2.html" > Answer 1: 28°C</a><br>
+            <a class="btn" href="correctORincorrect_2\incorrect2.1.html" > Answer 2: 0°C</a><br>
+            <a class="btn" href="correctORincorrect_2\incorrect2.2.html" > Answer 3: 32°C</a><br>
+            <a class="btn" href="correctORincorrect_2\incorrect2.3.html" > Answer 4: 85°C</a><br>        
+        </div>   
+
+
+    </body>
+
+</html>

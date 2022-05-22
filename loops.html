@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loops.css">
+    <title>Loops</title>
+</head>
+
+<body class = 'background-image'>
+    <div class="fullCard">
+        <div>
+          <div> 
+            
+            <h1> <em>for</em> Loops</h1>
+            <hr>
+            
+            
+            <div>
+            <p> 
+                Repeating tasks without making errors is something that computers do well and people do poorly. 
+                Loops enable you to repeat a statement or group of statements until a given condition is met. 
+                The <strong>for</strong> loop is a construct utilised to to repeat a statement or block of statements a specific number of times. 
+                
+                <br><br>
+                The water is nice and warm so you and ya mateys begin your dive down to the sea floor. 
+                You know the treasure is close, you pirate senses are tingling.  
+                The water is a crystal blue as you dive down until suddently, you find yourself surrounded by maneaters! Blimey, you need to warn ya mateys but also don't want other treasure hunters to know about the danger. 
+                Arrrr, not to worry, you have a super-secret pirate encryption that'll do the trick. 
+
+                <br><br>
+                
+            
+                    Consider the problem below:
+                </p>
+                
+                <hr>
+ 
+                <div\>
+            </p>
+
+            <div >    
+            <pre> 
+
+                    public class secretPirateCode{
+
+                        public static void main (String[] args) {
+                            
+                            String message;
+                            String encryptedMessage;
+                            
+                            message = "There are sharks down here!";
+                            encryptedMessage = "";
+                    
+                            for (int i = message.length()-1; i  >= 0;  i--) {
+                                    encryptedMessage += message.charAt(i);
+                            }
+                
+                            System.out.println(encryptedMessage);
+                    
+                        }
+                    }
+
+            </pre>
+            <hr>
+ 
+            <p style="text-align: center;">
+                What will the super-secret pirate message look like?
+            </p>
+            <br>
+                
+
+                <div\>
+
+            
+
+        </div>
+                </div>
+            </div>
+            <div style ="text-align: center;">
+                <a class="btn" href="correctORincorrect_3\incorrect3.1.html" > <strong>A: !erehnwodskrahseraerehT</strong> </a><br>    
+                <a class="btn" href="correctORincorrect_3\correct3.html" > <strong>B: !ereh nwod skrahs era erehT</strong> </a><br>
+                <a class="btn" href="correctORincorrect_3\incorrect3.2.html" > <strong>C: encryptedMessage</strong> </a><br>
+                <a class="btn" href="correctORincorrect_3\incorrect3.3.html" > <strong>D: There are sharks down here!</strong> </a><br>
+            </div> 
+</body>
+</html>

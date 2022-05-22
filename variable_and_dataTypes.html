@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/variables.css">
+    <title>Variables and Data Types</title>
+</head>
+
+<body class = "background-image">
+    <div class = "fullCard">
+        <div class="cardContent">
+            <div class="cardText"> 
+
+                <h1>Variables and Data Types</h1>
+                <hr>
+
+                <div>
+                    <p style="font-size: 21px">
+                        Variables are everywhere in programming, and are labels which you can assign to any value in the program. There are a total of 5 variable types which can 
+                        be assigned to values, including; <strong>String, int, float, char</strong> & <strong>boolean.</strong>  
+                        Because most programs define and gather some sort of data,
+                        and then do something useful with it, it helps to classify different types of data.  <br>
+                        <p style="text-align: center;"> Variable Example: </p>
+
+
+                    <hr>
+
+                    <pre>
+       Line 1          import java.util.Scanner;
+            2                
+            3          public class variablesAndDataTypes {
+            4              public static void main(String[] args) {
+            5                  Scanner scnr = new Scanner(System.in);
+            6
+            7                  double adjacentSide;
+            8                  double oppositeSide; 
+            9                  double areaValue1;
+            10                 int areaValue2;
+            11                 double areaValue3;
+            12
+            13                 System.out.println("Enter the Adjacent side of the right-angled triangle.");
+            14                 adjacentSide = scnr.nextDouble();
+            15                 System.out.println("Your Adjacent side is: " + adjacentSide);
+            16
+            17                 System.out.println();
+            18
+            19                 System.out.println("Enter the Opposite side of the right-angled triangle.");
+            20                 oppositeSide = scnr.nextDouble();
+            21                 System.out.println("Your Opposite side is: " + oppositeSide);
+            22
+            23                 System.out.println();
+            24                 System.out.println(areaValue1 = ((adjacentSide * oppositeSide) / 2));
+            25                 System.out.println(areaValue2 = (int)(areaValue1));
+            26                 System.out.println(areaValue3 = (double)(areaValue2));
+            27               }
+            28           }
+                        </pre>
+                        </p>
+                </div>
+
+                <hr>
+
+                <p style="text-align: center;font-size:21px">
+                If the right-angled triange has an Adjacent side of 45.83 metres, and an Opposite side of 37.12 metres, then what would be the correct output of the code?
+                </p>
+
+                <div style ="text-align: center;">
+                    <a class="btn" href="correctORincorrect_1\incorrect1.1.html" > Answer 1: 850.0, 850, 850,0 </a><br>    
+                    <a class="btn" href="correctORincorrect_1\correct1.html" > Answer 2: 850.6048, 850, 850.0 </a><br>
+                    <a class="btn" href="correctORincorrect_1\incorrect1.2.html" > Answer 3: 850.6048, 850, 850.6048 </a><br>
+                    <a class="btn" href="correctORincorrect_1\incorrect1.3.html" > Answer 4: None of the above </a><br>
+                </div> 
+
+            </body>
+</html>
